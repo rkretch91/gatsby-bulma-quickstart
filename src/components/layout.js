@@ -5,13 +5,12 @@ import Helmet from './helmet';
 import Header from './header';
 import Midsection from './midsection';
 import Footer from './footer';
+import Bodyp1 from './bodyp1'
 
 const Layout = ({ children }) => (
 	<div>
 		<Helmet />
-		<Header />
-		<Midsection />
-		<Footer />
+    <Bodyp1 />
 	</div>
 );
 
