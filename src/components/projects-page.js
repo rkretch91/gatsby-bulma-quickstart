@@ -2,7 +2,8 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEye, faEnvelope, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faEye, faEnvelope, faCode, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "gatsby"
 
 import './style.scss';
 
@@ -14,7 +15,7 @@ import a from '../images/a-r.png';
 
 
 
-library.add(faEye, faEnvelope, faCode)
+library.add(faEye, faEnvelope, faCode, faArrowCircleRight)
 
 const Projects = () => (
   <div>
@@ -108,6 +109,7 @@ const Projects = () => (
       </div>
     </div>
   </div>
+  <Link to="/about"><FontAwesomeIcon icon="arrow-circle-right" size="2x" color="rgba(0,0,0,.2)" className="next-button" /></Link>
 </div>
 
   );

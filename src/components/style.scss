@@ -4,6 +4,9 @@
 // Importing Bulma from node_modules
 @import '~bulma/bulma.sass';
 
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
 .gradientBg {
 	display: flex;
 	background: linear-gradient(to right, $primary-color, $secondary-color);
@@ -111,10 +114,6 @@ img#heart {
   transform: scale(50);
 }
 
-
-
-
-
 .btn-home {
   float: right;
   background-color: white;
@@ -181,4 +180,16 @@ img#heart {
 .columns {
   margin-bottom: 40px !important;
   padding: 2rem 0;
+}
+
+.next-button {
+  position: fixed;
+  top: 95%;
+  right: 10px;
+  text-align:right;
+  z-index:9999;
+  margin-top:-15px;
+  &:hover{
+    color: gray;
+  }
 }

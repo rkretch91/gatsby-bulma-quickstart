@@ -17,7 +17,7 @@ const IndexPage = () => (
       entered: { right: '0%' },
       exiting: { right: '100%' },
     }}
-    transitionTime={500}
+    transitionTime={1000}
   >
     <Layout />
   </PageTransition>

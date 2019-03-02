@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Projects from '../components/projects-page';
+import About from '../components/about-page';
 import Header from '../components/header';
 import PageTransition from 'gatsby-plugin-page-transitions';
 
-class ProjectPage extends React.Component {
+class AboutPage extends React.Component {
   render() {
-    const title = "Projects"
+    const title = "About"
     return (
   <PageTransition
   defaultStyle={{
@@ -23,10 +23,10 @@ class ProjectPage extends React.Component {
   transitionTime={1000}
 >
     <Header title={title} />
-    <Projects />
+    <About />
 </PageTransition>
 )
   }
 }
 
-export default ProjectPage;
+export default AboutPage;
