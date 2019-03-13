@@ -7,7 +7,7 @@ import PageTransition from 'gatsby-plugin-page-transitions';
 const IndexPage = () => (
   <PageTransition
     defaultStyle={{
-      transition: 'right 500ms cubic-bezier(0.47, 0, 0.75, 0.72)',
+      transition: 'right 1000ms cubic-bezier(0.47, 0, 0.75, 0.72)',
       right: '100%',
       position: 'absolute',
       width: '100%',

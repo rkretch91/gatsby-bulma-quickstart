@@ -28,7 +28,9 @@ const Projects = () => (
     <div className="column">
       <div className="smaller project">
         <h1 className="pacifico">The Potluck Club</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum consectetur diam in bibendum. Integer interdum laoreet est aliquet consectetur. Nunc et auctor est.</p>
+        <p><strong>An organization breaking barriers with food events coming to your city soon.</strong></p>
+        <p>From UX/UI Strategy to design to development, I created the entire beta version of the application, which was launched in April 2018.</p>
+        <p className="has-text-centered is-size-7 is-">Ruby on Rails, PostgreSQL, JS, HTML/CSS, Bootstrap, Heroku</p>
         <FontAwesomeIcon icon="envelope" className="is-pulled-right pad-that-shit" size="1x" color="#85F4A1" />
         <FontAwesomeIcon icon="eye" className="is-pulled-right pad-that-shit" size="1x" color="gray" />
         <FontAwesomeIcon icon="code" className="is-pulled-right pad-that-shit" size="1x" color="gray" />
@@ -42,13 +44,15 @@ const Projects = () => (
     </div>
   </div>
   <div className="column">
-    <div className="smaller project">
-      <h1 className="pacifico">WeCare WC</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum consectetur diam in bibendum. Integer interdum laoreet est aliquet consectetur. Nunc et auctor est.</p>
-      <FontAwesomeIcon icon="envelope" className="is-pulled-right pad-that-shit" size="1x" color="#85F4A1" />
-      <FontAwesomeIcon icon="eye" className="is-pulled-right pad-that-shit" size="1x" color="gray" />
-      <FontAwesomeIcon icon="code" className="is-pulled-right pad-that-shit" size="1x" color="gray" />
-    </div>
+      <div className="smaller project">
+        <h1 className="pacifico">WeCare WC</h1>
+        <p><strong>A company with the bold mission of redefining public restrooms in China and Asia.</strong></p>
+        <p>UX/UI to creating a Wordpress template from scratch. I am also Marketing and PR Manager at the company.</p>
+        <p className="has-text-centered is-size-7 is-">Wordpress CMS</p>
+        <FontAwesomeIcon icon="envelope" className="is-pulled-right pad-that-shit" size="1x" color="#85F4A1" />
+        <FontAwesomeIcon icon="eye" className="is-pulled-right pad-that-shit" size="1x" color="gray" />
+        <FontAwesomeIcon icon="code" className="is-pulled-right pad-that-shit" size="1x" color="gray" />
+      </div>
   </div>
   <div className="column hidden-tab">
     <div className="smaller">
@@ -65,7 +69,9 @@ const Projects = () => (
     <div className="column">
       <div className="smaller project">
         <h1 className="pacifico">Shanghai Greeters</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum consectetur diam in bibendum. Integer interdum laoreet est aliquet consectetur. Nunc et auctor est.</p>
+        <p><strong>Shanghai Greeters is a non-profit that connects visitors with local friends (or greeters).</strong></p>
+        <p>Previous problems included a non-intuitive and unattractive front-end and a non-existent back-end resulting in messy Excel sheets and manual matching.</p>
+        <p className="has-text-centered is-size-7 is-">Ruby on Rails, PostgreSQL, JS, HTML/CSS, Bootstrap, Heroku</p>
         <FontAwesomeIcon icon="envelope" className="is-pulled-right pad-that-shit" size="1x" color="#85F4A1" />
         <FontAwesomeIcon icon="eye" className="is-pulled-right pad-that-shit" size="1x" color="gray" />
         <FontAwesomeIcon icon="code" className="is-pulled-right pad-that-shit" size="1x" color="gray" />
